@@ -111,6 +111,91 @@ header .contenido .boton .btn-warning{
 header .completar{
     height: 250px;
 }
+
+/*<!-----------------CONTENIDO (OFERTAS)-------------------->*/
+
+.container {
+	padding-top:20px;
+	
+}
+
+.imagen {
+	width: 275px;
+	height:225px;
+	transition:all .2s ease-in-out;
+}
+
+.imagen:hover {
+	transform:scale(1.05);
+}
+
+.description {
+	height:50px;
+	background-color:black;
+	color:#fff;
+}
+
+.price {
+	height:75px;
+	background-color:yellow;
+	font-size:30px;
+	font-weight:bold;
+}
+
+.price>p {
+	color:black;
+	text-decoration: none;
+}
+
+p {
+	padding-top:10px;
+	text-align:center;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+#pekin {
+	background-image:url("https://raw.githubusercontent.com/GeeksHubsAcademy/Actividad_1/master/img/beijing.JPG");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+
+#baires {
+	background-image:url("https://raw.githubusercontent.com/GeeksHubsAcademy/Actividad_1/master/img/buenos_aires.JPG");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+
+#mexico {
+	background-image:url("https://raw.githubusercontent.com/GeeksHubsAcademy/Actividad_1/master/img/ciudad_mexico.JPG");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+
+#madrid {
+	background-image:url("https://raw.githubusercontent.com/GeeksHubsAcademy/Actividad_1/master/img/madrid.JPG");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+
+#ny {
+	background-image:url("https://raw.githubusercontent.com/GeeksHubsAcademy/Actividad_1/master/img/new_york.JPG");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+
+#tokyo {
+	background-image:url("https://raw.githubusercontent.com/GeeksHubsAcademy/Actividad_1/master/img/tokyo.JPG");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+
+/*<!-----------------FIN CONTENIDO (OFERTAS)-------------------->*/
+
+
 /*
 header .contenido .espacio1{
     -webkit-flex: 3 1 25%;
@@ -168,3 +253,6 @@ header .contenido .espacio3{
 
 
 */
+
+
+
